@@ -2,7 +2,7 @@ import { Permission } from 'node-appwrite';
 import { questionAttachmentBucket } from '../name';
 import { storage } from './config';
 
-// creating votes
+// creating storage bucket
 
 export default async function getOrCreateStorage() {
   try {

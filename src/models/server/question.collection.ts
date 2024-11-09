@@ -31,9 +31,15 @@ console.log("Question Attributes Created.");
 
 // create Indexes
 
+//  gives error -> 
+
+/*
+
 await Promise.all([
     databases.createIndex(db, questionCollection, "title", IndexType.Fulltext, ["title"], ['asc']),
     databases.createIndex(db, questionCollection, "content", IndexType.Fulltext, ["content"], ['asc']),
 ])
+
+*/
 
 }
